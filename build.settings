@@ -14,12 +14,15 @@ settings =
 	--]]
 
 	iphone =
-	{
+	{	
+		entitlements = {
+		    ["com.apple.developer.ClassKit-environment"] = {"development"}, -- or production
+		},
 		xcassets = "Images.xcassets",
 		plist =
 		{
 			UILaunchStoryboardName = "LaunchScreen",
-            CFBundleURLTypes = {
+            	CFBundleURLTypes = {
                 {
                     CFBundleURLSchemes = {
                     "testApp"
