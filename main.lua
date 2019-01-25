@@ -59,9 +59,9 @@ onRelease =  function ()
         if e.isError == false then
             classKit.createActivity("com.scotth.mathQuiz", function(e)
                 classKit.startActivity()
-                mathQ1()
             end)
         end
+	mathQ1()
     end)
 end
 
