@@ -16,7 +16,7 @@ settings =
 	iphone =
 	{	
 		entitlements = {
-		    ["com.apple.developer.ClassKit-environment"] = {"development"}, -- or production
+		    ["com.apple.developer.ClassKit-environment"] = "development" -- or production
 		},
 		xcassets = "Images.xcassets",
 		plist =
